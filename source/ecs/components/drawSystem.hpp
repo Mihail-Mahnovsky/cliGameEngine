@@ -1,11 +1,12 @@
+#pragma once
 #include <vector>
 #include <iostream>
-#include "entity.hpp"
+#include "../entity.hpp"
 #include "drawble.hpp"
 
 class DrawSystem {
 public:
-    void update(std::vector<Entity*>& entities) {
+    void update(const std::vector<Entity*>& entities) {
         for (Entity* entity : entities) {
             Drawble* drawable = entity->getComponent<Drawble>();
             if (!drawable) continue;

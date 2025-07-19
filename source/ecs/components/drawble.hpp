@@ -1,10 +1,11 @@
-#include "component.hpp"
-#include "vector2.hpp"
+#pragma once
+#include "../component.hpp"
+#include "../../math/vector2.hpp"
 
-const short _width = 16;
-const short _height = 16;
+const short _width = 4;
+const short _height = 4;
 
-class Drawble : Component{
+class Drawble : public Component{
 public:
     Drawble(const char sprite[_width][_height]) {
         for (int i = 0; i < _width; ++i) {

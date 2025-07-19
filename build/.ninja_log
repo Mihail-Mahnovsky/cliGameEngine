@@ -1,7 +1,9 @@
 # ninja log v6
-1	12	1752952486747064525	/home/mako/projects/cliEngine/build/CMakeFiles/cmake.verify_globs	34c0826726cc65bd
-12	194	1752952486758064479	CMakeFiles/cliEngine.dir/source/main.cpp.o	3c3278591b81c535
-194	240	1752952486940063712	cliEngine	3ee36cb74164d74
-1	10	1752952501130003897	/home/mako/projects/cliEngine/build/CMakeFiles/cmake.verify_globs	34c0826726cc65bd
+1	11	1752957742316154792	/home/mako/projects/cliEngine/build/CMakeFiles/cmake.verify_globs	34c0826726cc65bd
+12	192	1752957742327154842	CMakeFiles/cliEngine.dir/source/ecs/world.cpp.o	f0c00f156697a1a2
 11	190	1752952501140003855	CMakeFiles/cliEngine.dir/source/main.cpp.o	3c3278591b81c535
 191	238	1752952501320003096	cliEngine	3ee36cb74164d74
+1	10	1752957799219415378	/home/mako/projects/cliEngine/build/CMakeFiles/cmake.verify_globs	34c0826726cc65bd
+12	199	1752957799230415428	CMakeFiles/cliEngine.dir/source/ecs/world.cpp.o	f0c00f156697a1a2
+12	263	1752957799231610915	CMakeFiles/cliEngine.dir/source/main.cpp.o	3c3278591b81c535
+264	316	1752957799482416582	cliEngine	a2aeee461a5a9895

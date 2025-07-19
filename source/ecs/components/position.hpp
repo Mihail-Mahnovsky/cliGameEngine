@@ -1,7 +1,8 @@
-#include "component.hpp"
-#include "vector2.hpp"
+#pragma once
+#include "../component.hpp"
+#include "../../math/vector2.hpp"
 
-class Position : Component{
+class Position : public Component{
 public:
     Position(float x,float y) :pos(vector2(x,y)) {}
     float getX() { return pos.getX(); }

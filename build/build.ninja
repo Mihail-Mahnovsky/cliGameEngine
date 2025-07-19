@@ -44,6 +44,13 @@ cmake_ninja_workdir = /home/mako/projects/cliEngine/build/
 
 build cmake_object_order_depends_target_cliEngine: phony || .
 
+build CMakeFiles/cliEngine.dir/source/ecs/world.cpp.o: CXX_COMPILER__cliEngine_unscanned_ /home/mako/projects/cliEngine/source/ecs/world.cpp || cmake_object_order_depends_target_cliEngine
+  DEP_FILE = CMakeFiles/cliEngine.dir/source/ecs/world.cpp.o.d
+  OBJECT_DIR = CMakeFiles/cliEngine.dir
+  OBJECT_FILE_DIR = CMakeFiles/cliEngine.dir/source/ecs
+  TARGET_COMPILE_PDB = CMakeFiles/cliEngine.dir/
+  TARGET_PDB = cliEngine.pdb
+
 build CMakeFiles/cliEngine.dir/source/main.cpp.o: CXX_COMPILER__cliEngine_unscanned_ /home/mako/projects/cliEngine/source/main.cpp || cmake_object_order_depends_target_cliEngine
   DEP_FILE = CMakeFiles/cliEngine.dir/source/main.cpp.o.d
   OBJECT_DIR = CMakeFiles/cliEngine.dir
@@ -59,7 +66,7 @@ build CMakeFiles/cliEngine.dir/source/main.cpp.o: CXX_COMPILER__cliEngine_unscan
 #############################################
 # Link the executable cliEngine
 
-build cliEngine: CXX_EXECUTABLE_LINKER__cliEngine_ CMakeFiles/cliEngine.dir/source/main.cpp.o
+build cliEngine: CXX_EXECUTABLE_LINKER__cliEngine_ CMakeFiles/cliEngine.dir/source/ecs/world.cpp.o CMakeFiles/cliEngine.dir/source/main.cpp.o
   DEP_FILE = CMakeFiles/cliEngine.dir/link.d
   LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/cliEngine.dir/link.d
   OBJECT_DIR = CMakeFiles/cliEngine.dir

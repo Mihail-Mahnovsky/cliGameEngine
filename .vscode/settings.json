@@ -2,6 +2,7 @@
     "files.associations": {
         "random": "cpp",
         "unordered_map": "cpp",
-        "new": "cpp"
+        "new": "cpp",
+        "vector": "cpp"
     }
 }

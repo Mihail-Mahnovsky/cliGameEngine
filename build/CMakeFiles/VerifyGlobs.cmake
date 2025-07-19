@@ -23,6 +23,7 @@ endif()
 # SOURCES at CMakeLists.txt:3 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/mako/projects/cliEngine/source/*.cpp")
 set(OLD_GLOB
+  "/home/mako/projects/cliEngine/source/ecs/world.cpp"
   "/home/mako/projects/cliEngine/source/main.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
@@ -51,6 +52,13 @@ endif()
 # SOURCES at CMakeLists.txt:3 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/mako/projects/cliEngine/source/*.hpp")
 set(OLD_GLOB
+  "/home/mako/projects/cliEngine/source/ecs/component.hpp"
+  "/home/mako/projects/cliEngine/source/ecs/components/drawSystem.hpp"
+  "/home/mako/projects/cliEngine/source/ecs/components/drawble.hpp"
+  "/home/mako/projects/cliEngine/source/ecs/components/position.hpp"
+  "/home/mako/projects/cliEngine/source/ecs/entity.hpp"
+  "/home/mako/projects/cliEngine/source/ecs/world.hpp"
+  "/home/mako/projects/cliEngine/source/math/vector2.hpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
