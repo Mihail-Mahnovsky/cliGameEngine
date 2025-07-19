@@ -1,0 +1,3 @@
+/home/mako/projects/cliEngine/build/CMakeFiles/cliEngine.dir
+/home/mako/projects/cliEngine/build/CMakeFiles/edit_cache.dir
+/home/mako/projects/cliEngine/build/CMakeFiles/rebuild_cache.dir
